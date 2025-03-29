@@ -1,4 +1,4 @@
-This plugin allows for a simple way to turn any 3D game into a therapy game for amblyopia. It works by rendering some actors as red or blue, depending on which eye is sick, and rendering anything else using dark tones: this will allow the red (blue) actors to only be visible to the desired eye.
+This plugin allows for a simple way to turn any 3D game into an anaglyph based therapy game for amblyopia (red and blue 3d glasses are required). It works by rendering some actors as red or blue, depending on which eye is sick, and rendering anything else using dark tones: this will allow the red (blue) actors to only be visible to the desired eye.
 
 IMPLEMENTATION STEPS
 
