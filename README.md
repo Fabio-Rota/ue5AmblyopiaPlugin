@@ -1,7 +1,7 @@
 This plugin allows for a simple way to turn any 3D game into a therapy game for amblyopia. It works by rendering some actors as red or blue, depending on which eye is sick, and rendering anything else using dark tones: this will allow the red (blue) actors to only be visible to the desired eye.
 
 IMPLEMENTATION STEPS
-0) Add the plugin’s folder into your project’s Plugins folder (create the Plugins folder yourself if one is not already present.
+0) Add the AmblyopiaTherapy folder into your project’s Plugins folder (create the Plugins folder yourself if one is not already present).
 1) In project settings, set “Custom Depth-Stencil Path” to “Enabled with stencil”.
 2) For each level in the game, create a new PostProcessVolume, set Unbound to true, add under Post Process Materials M_PP_Blacken and add a tag “DarkeningPP”.
 3) For each mesh (skeletal or static) that should be rendered as obscured (generally all meshes that one does not wish to turn red/blue) change “Render CustomDepth Pass” to true, and     
