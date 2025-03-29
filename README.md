@@ -14,7 +14,7 @@ IMPLEMENTATION STEPS
 
 ADDITIONAL INSTRUCTIONS
 
-_ Make sure not to use any lights that are too bright: the main problem is that if the background around the red/blue object isn’t dark enough, both eyes will be able to see it; also, the 
+1. Make sure not to use any lights that are too bright: the main problem is that if the background around the red/blue object isn’t dark enough, both eyes will be able to see it; also, the 
    light might create a minor lighting glitch around the red/blue objects that are being illuminated.
-_ The darkening amount can be modified inside of “M_PP_Blacken”.
+2. The darkening amount can be modified inside of “M_PP_Blacken”.
 
